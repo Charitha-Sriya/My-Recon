@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyRecon - Web Recon Tool</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #141e30, #243b55);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    .search-box {
+      width: 60%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .search-input {
+      width: 100%;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 50px;
+      border: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      outline: none;
+    }
+    .submit-button {
+      margin-top: 25px;
+      padding: 12px 35px;
+      font-size: 18px;
+      border-radius: 30px;
+      background: #00c6ff;
+      border: none;
+      color: black;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .submit-button:hover {
+      background: #0072ff;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔍 MyRecon</h1>
+  <form action="run.php" method="POST">
+    <div class="search-box">
+      <input class="search-input" type="text" name="domain" placeholder="Enter a domain like example.com" required>
+    </div>
+    <input class="submit-button" type="submit" value="Run Recon">
+  </form>
+</body>
+</html>
