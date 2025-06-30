@@ -9,8 +9,7 @@ MyRecon is a lightweight web-based recon tool designed for quick domain reconnai
 ## 📸 Screenshots
 
 ### Home Interface
-![Home Page](https://user-images.githubusercontent.com/YOUR_USERNAME/HOMEPAGE_IMAGE.png)
-
+![Home Page](![image](https://github.com/user-attachments/assets/69832d34-28f7-4575-92a3-cec5482e16e6))
 ### Sample Report
 ![Report Page](https://user-images.githubusercontent.com/YOUR_USERNAME/REPORT_IMAGE.png)
 
