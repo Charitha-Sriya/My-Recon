@@ -79,7 +79,7 @@ This tool is for **educational and ethical purposes only**. Use it on domains yo
 
 ## 👨‍💻 Author
 
-- [Your Name](https://github.com/YOUR_USERNAME)
+- [Charitha-Sriya]([https://github.com/Charitha-Sriya])
 - Feel free to star ⭐ the repo if you find it helpful!
 
 ---
